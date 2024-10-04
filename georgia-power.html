@@ -4,7 +4,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Easton </title>
 
+<!-- Fav Icon -->
+<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!-- Stylesheets -->
 <link href="assets/css/font-awesome-all.css" rel="stylesheet">
 <link href="assets/css/flaticon.css" rel="stylesheet">
 <link href="assets/css/owl.css" rel="stylesheet">
@@ -16,98 +22,201 @@
 <link href="assets/css/jquery-ui.css" rel="stylesheet">
 <link href="assets/css/style.css" rel="stylesheet">
 <link href="assets/css/responsive.css" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style1.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </head>
 <body>
-    <!-- navbar start  -->
     
-    <nav class="navbar navbar-expand-lg ">
-        <div class="container">
-        
-          <div class="collapse navbar-collapse" >
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
-              <li class="nav-item">
-                <a class="nav-link active  text-white px-3" style="background-color: rgb(233, 28, 28);" aria-current="page" href="#"><i class="fa-solid fa-lock me-2" style="color: white;" ></i>My Account</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link  text-primary" href="#">Outades</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link  text-primary" href="#">Start/Stop Service</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link  text-primary" href="#">Support</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link  text-primary" href="#">Shop</a>
-              </li>
-             
-            </ul>
-         
-          </div>
-        </div>
-      </nav>
-
-    <nav class="navbar navbar-expand-lg  align-items-center " style="border-bottom: 1px solid rgb(218, 208, 208);" >
-        <div class="container-lg container-fluid px-lg-0 px-3 d-flex flex-lg-row flex-row-reverse">
-            <div class="d-lg-none d-sm-block d-none">
-                <a class="nav-link active" href="#"><i class="fa-solid fa-magnifying-glass "  ></i></a>
+          
+        <!-- preloader -->
+        <div class="loader-wrap">
+            <div class="preloader">
+                <div class="preloader-close">x</div>
+                <div id="handle-preloader" class="handle-preloader">
+                    <div class="animation-preloader">
+                        <div class="spinner"></div>
+                        <div class="txt-loading">
+                            <span data-text-preloader="e" class="letters-loading">
+                                e
+                            </span>
+                            <span data-text-preloader="a" class="letters-loading">
+                                a
+                            </span>
+                            <span data-text-preloader="s" class="letters-loading">
+                                s
+                            </span>
+                            <span data-text-preloader="t" class="letters-loading">
+                                t
+                            </span>
+                            <span data-text-preloader="o" class="letters-loading">
+                                o
+                            </span>
+                            <span data-text-preloader="n" class="letters-loading">
+                                n
+                            </span>
+                        </div>
+                    </div>  
+                </div>
             </div>
-          <a class="navbar-brand text-lg-start   text-sm-center  text-end " href="#"><img src="/assets/images/providersimg/georgia-power-h-rgb.png" class="img-fluid  " width="50%" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4 pt-lg-0 pt-4">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link active" href="#">Residential</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Business</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Our Impact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">News Hub</a>
-              </li>
-              <li class="nav-item d-lg-block d-none ">
-                <a class="nav-link active" href="#"><i class="fa-solid fa-magnifying-glass "  ></i></a>
-              </li>
-            </ul>
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4 pt-5 d-lg-none d-block">
-                
-                <li class="nav-item ">
-                  <a class="nav-link  text-primary" href="#">Outades</a>
-                </li>
-                <li class="nav-item pt-4">
-                  <a class="nav-link  text-primary" href="#">Start/Stop Service</a>
-                </li>
-                <li class="nav-item pt-4">
-                  <a class="nav-link  text-primary" href="#">Support</a>
-                </li>
-                <li class="nav-item pt-4">
-                  <a class="nav-link  text-primary" href="#">Shop</a>
-                </li>
-                
-               
-              </ul>
-
-         
-          </div>
-         
-            
         </div>
-      </nav>
+        <!-- preloader end -->
 
-    <!-- navbar end -->
+
+        <!--Search Popup-->
+        <div id="search-popup" class="search-popup">
+            <div class="popup-inner">
+                <div class="upper-box clearfix">
+                    <figure class="logo-box pull-left"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></figure>
+                    <div class="close-search pull-right"><span class="far fa-times"></span></div>
+                </div>
+                <div class="overlay-layer"></div>
+                <div class="auto-container">
+                    <div class="search-form">
+                        <form method="post" action="index.html">
+                            <div class="form-group">
+                                <fieldset>
+                                    <input type="search" class="form-control" name="search-input" value="" placeholder="Type your keyword and hit" required >
+                                    <button type="submit"><i class="far fa-search"></i></button>
+                                </fieldset>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- main header -->
+        <header class="main-header">
+            <!-- header-top -->
+            <div class="header-top">
+                <div class="top-inner">
+                    <div class="left-column">
+                        <ul class="info clearfix">
+                            <li><i class="icon-1"></i>Sun-Thu  08:00AM-05:00PM</li>
+                            <li><i class="icon-2"></i>380 Albert St, Melborne</li>
+                            <li><i class="icon-3"></i><a href="mailto:needhelp@info.com" class="text-decoration-none">needhelp@info.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="right-column">
+                        <ul class="social-links clearfix">
+                            <li><p>Follow Us:</p></li>
+                            <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="index.html"><i class="fab fa-pinterest-p"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- header-lower -->
+            <div class="header-lower">
+                <div class="outer-box">
+                    <div class="menu-area clearfix">
+                        <div class="logo-box">
+                            <figure class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></figure>
+                        </div>
+                        <!--Mobile Navigation Toggler-->
+                        <div class="mobile-nav-toggler">
+                            <i class="icon-bar"></i>
+                            <i class="icon-bar"></i>
+                            <i class="icon-bar"></i>
+                        </div>
+                        <nav class="main-menu navbar-expand-md navbar-light">
+                            <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                <ul class="navigation clearfix">
+                                    <li class="current dropdown"><a class="text-decoration-none" href="index.html">Home</a>
+                                     
+                                    </li>
+                                    <li><a class="text-decoration-none" href="about.html">About</a></li>
+                                    <li class="dropdown"><a class="text-decoration-none" href="service.html">Services</a>
+                                     
+                                    </li>
+                                    <li><a class="text-decoration-none" href="faq.html">Faq’s</a></li>
+ 
+                                    <li><a class="text-decoration-none" href="contact.html">Contact</a></li> 
+                                    <li class="dropdown"><a class="text-decoration-none" href="index.html">Providers</a>
+                                        <ul>
+                                            <li><a class="text-decoration-none" href="georgia-power.html">Georgia Power</a></li>
+                                            <li><a class="text-decoration-none" href="entergy.html"> Entergy</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="nav-right">
+                        <div class="support-box">
+                            <h6><i class="icon-4"></i>Call: <a class="text-decoration-none" href="tel:123045615523">+1 (230)-456-155-23</a></h6>
+                        </div>
+                        <div class="search-box-outer search-toggler">
+                            <i class="icon-5"></i>
+                        </div>
+                        <div class="btn-box">
+                            <a href="index.html" class="theme-btn btn-one text-decoration-none">Appointment</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--sticky Header-->
+            <div class="sticky-header">
+                <div class="outer-box">
+                    <div class="menu-area clearfix">
+                        <div class="logo-box">
+                            <figure class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></figure>
+                        </div>
+                        <nav class="main-menu clearfix">
+                            <!--Keep This Empty / Menu will come through Javascript-->
+                        </nav>
+                    </div>
+                    <div class="nav-right">
+                        <div class="support-box">
+                            <h6><i class="icon-4"></i>Call: <a href="tel:123045615523">+1 (230)-456-155-23</a></h6>
+                        </div>
+                        <div class="search-box-outer search-toggler">
+                            <i class="icon-5"></i>
+                        </div>
+                        <div class="btn-box">
+                            <a href="index.html" class="theme-btn btn-one">Appointment</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- main-header end -->
+
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><i class="fas fa-times"></i></div>
+            
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="assets/images/logo-2.png" alt="" title=""></a></div>
+                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+                <div class="contact-info">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>Chicago 12, Melborne City, USA</li>
+                        <li><a href="tel:+8801682648101">+88 01682648101</a></li>
+                        <li><a href="mailto:info@example.com">info@example.com</a></li>
+                    </ul>
+                </div>
+                <div class="social-links">
+                    <ul class="clearfix">
+                        <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div><!-- End Mobile Menu -->
+
+
+
 
     <!-- cards start  -->
      <div class="container d-flex mt-4 align-items-center justify-content-center">
@@ -176,27 +285,27 @@
     <div class="row gap-4">
 
         <!-- Areas Still Without Power Section -->
-        <div class="col-12 faq pt-3 pb-2">
+        <div class="col-12 faq pt-3 pb-2" style="border:1px solid rgb(207, 197, 197);" >
             <h3 class="text-center">Areas Still Without Power</h3>
             <div class="text-center text-primary" id="toggleIcon" onclick="toggleRow()">
                 <i class="fa-solid fa-plus"></i>
             </div>
             <div class="row justify-content-center px-2 gap-2 mt-4" id="toggleRow" style="display: none;">
-                <div class="col-xl-6 col-12">
+                <div class=" col-12">
                     <h6 class="fw-bold">Thank you for your patience as we work tirelessly to restore services.</h6>
                     <p class="pt-3">Stay updated through our <a href="" class="text-decoration-none">Outage Map</a>, where you can find the latest restoration timelines. We’re doing everything we can to exceed these estimates and restore power as quickly as possible.</p>
                     <p class="pt-5">Despite ongoing damage and challenging conditions, our teams are on the ground 24/7, working until every customer is reconnected.</p>
                     <p class="pt-3">Although crews are facing obstacles like blocked roads, communication issues, and extensive tree damage, significant progress is being made in the hardest-hit areas, including Augusta, Savannah, Macon, and Valdosta.</p>
                     <p class="pt-3">Our restoration efforts prioritize public safety and essential services like hospitals and emergency facilities, followed by repairs that will restore power to the greatest number of customers in the shortest time.</p>
                 </div>
-                <div class="col-xl-6 col-md-8 col-11">
+                <div class=" col-md-8 col-11">
                     <img src="assets/images/providersimg/helene-outage-map-10-3.jpeg" alt="Outage map" style="width: 100%; object-fit: cover;">
                 </div>
             </div>
         </div>
 
         <!-- Historic Damage to Georgia's Electric Infrastructure Section -->
-        <div class="col-12 faq pt-3 pb-2">
+        <div class="col-12 faq pt-3 pb-2" style="border:1px solid rgb(207, 197, 197);">
             <h3 class="text-center">Historic Damage to Georgia's Electric Infrastructure</h3>
             <div class="text-center text-primary" id="toggleIcon1" onclick="toggleRow1()">
                 <i class="fa-solid fa-plus"></i>
@@ -218,7 +327,7 @@
         </div>
 
         <!-- How We Planned for Helene Section -->
-        <div class="col-12 faq pt-3 pb-2">
+        <div class="col-12 faq pt-3 pb-2" style="border:1px solid rgb(207, 197, 197);">
             <h3 class="text-center">How We Planned for Helene</h3>
             <div class="text-center text-primary" id="toggleIcon2" onclick="toggleRow2()">
                 <i class="fa-solid fa-plus"></i>
@@ -249,7 +358,9 @@
 
 
     <!-- future section start  -->
-    <div class="container mt-5 pt-4" style="border-top:1px solid rgb(199, 192, 192);"> <div class="row"> <div class="col-lg-6 col-12"> <h3>Featured Resources</h3>
+    <div class="container mt-5 pt-4" style="border-top:1px solid rgb(199, 192, 192);"> 
+        <div class="row  " >
+         <div class="col-lg-6 col-12"> <h3>Featured Resources</h3>
      <h6 class="fw-bold pt-5">Billing and Payments</h6>
      <ul class="list-group gap-2 mt-2">
         <li>Get payment assistance when you need it.</li>
@@ -301,8 +412,6 @@
         <p>We believe in investing in our future to meet the needs of our customers today and tomorrow. Our commitment to grid reliability and energy education is part of our plan to create a sustainable future.</p>
         <ul class="list-group gap-2 mt-4">
            <li>Explore how we maintain grid reliability.</li>
-           <li>Learn about the advancements at our power plants.</li>
-           <li>Discover how we’re educating the next generation on energy.</li>
         </ul>
      </div>
 
@@ -311,8 +420,7 @@
         <p>Every year, we renew our commitment to empower communities and support environmental initiatives. Our employees and retirees work hand-in-hand with local organizations to create lasting impacts.</p>
         <ul class="list-group gap-2 mt-4">
            <li>Learn more about our community involvement programs.</li>
-           <li>Explore our ongoing environmental efforts.</li>
-           <li>Get an inside look at our restoration process after storms.</li>
+           
         </ul>
      </div>
 
@@ -329,73 +437,149 @@
 </div> </div>
     <!-- future section end -->
 
-    <!-- footer start  -->
-    <!-- Footer Section Start -->
-<div class="container-fluid bg-body-secondary mt-5 mb-0 pb-0">
-    <h1 class="text-center py-4">Thank You for Being a Valued Customer</h1>
-</div>
-
-<div class="container-fluid" style="background-color: #003a5d;">
-    <div class="container-md py-5">
-
-        <div class="row">
-            <!-- Contact Us Section -->
-            <div class="col-md-4 col-12 text-white text-center text-md-start">
-                <div class="border border-white py-2 px-5">
-                    <button class="btn btn-link text-white fs-4">Contact Us</button>
+    
+    
+            <!-- subscribe-section -->
+            <section class="subscribe-section p_relative mt-5 pt-4">
+                <div class="auto-container">
+                    <div class="inner-container">
+                        <div class="row align-items-center clearfix">
+                            <div class="col-lg-6 col-md-12 col-sm-12 text-column">
+                                <div class="text p_relative d_block">
+                                    <h2>Subscribe to Our Newsletter</h2>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12 form-column">
+                                <div class="form-inner p_relative d_block">
+                                    <form action="index.html" method="post">
+                                        <div class="form-group">
+                                            <input type="email" name="email" placeholder="Your email address" required="">
+                                            <button type="submit">Subscribe Now<i class="icon-7"></i></button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="d-flex justify-content-center justify-content-md-start gap-4 mt-3">
-                    <img src="assets/images/providersimg/icon-facebook-hover.png" alt="Facebook" />
-                    <img src="assets/images/providersimg/icon-x-white.png" alt="X" />
-                    <img src="assets/images/providersimg/icon-instagram-hover.png" alt="Instagram" />
-                    <img src="assets/images/providersimg/icon-youtube-hover.png" alt="YouTube" />
+            </section>
+            <!-- subscribe-section end -->
+    
+    
+            <!-- main-footer -->
+            <footer class="main-footer p_relative bg-color-2">
+                <div class="icon-layer"><img src="assets/images/icons/icon-5.png" alt=""></div>
+                <div class="footer-top p_relative d_block">
+                    <div class="auto-container">
+                        <div class="row clearfix">
+                            <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
+                                <div class="footer-widget logo-widget">
+                                    <figure class="footer-logo"><a href="index.html"><img src="assets/images/footer-logo.png" alt=""></a></figure>
+                                    <div class="text">
+                                        <p>Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor incididunt labore dolore magna aliqua enim ad minim.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                                <div class="footer-widget links-widget ml_100">
+                                    <div class="widget-title">
+                                        <h3>Links</h3>
+                                    </div>
+                                    <div class="widget-content">
+                                        <ul class="links-list clearfix">
+                                            <li><a href="index.html">About</a></li>
+                                            <li><a href="index.html">Services</a></li>
+                                            <li><a href="index.html">Job</a></li>
+                                            <li><a href="index.html">opportunities</a></li>
+                                            <li><a href="index.html">Location</a></li>
+                                            <li><a href="index.html">Article</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
+                                <div class="footer-widget links-widget">
+                                    <div class="widget-title">
+                                        <h3>Services</h3>
+                                    </div>
+                                    <div class="widget-content">
+                                        <ul class="links-list clearfix">
+                                            <li><a href="index.html">About</a></li>
+                                            <li><a href="index.html">Services</a></li>
+                                            <li><a href="index.html">Job</a></li>
+                                            <li><a href="index.html">opportunities</a></li>
+                                            <li><a href="index.html">Location</a></li>
+                                            <li><a href="index.html">Article</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                                <div class="footer-widget contact-widget">
+                                    <div class="widget-title">
+                                        <h3>Contacts</h3>
+                                    </div>
+                                    <div class="widget-content">
+                                        <ul class="info-list clearfix">
+                                            <li>Flat 20, Reynolds Neck, North Helenaville, FV77 8WS</li>
+                                            <li><a href="tel:23055873407">+2(305) 587-3407</a></li>
+                                            <li><a href="mailto:sample@example.com">sample@example.com</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom p_relative">
+                    <div class="auto-container">
+                        <div class="bottom-inner p_relative">
+                            <div class="copyright"><p><a href="index.html">Easton</a> &copy; 2022 All Right Reserved</p></div>
+                            <ul class="footer-nav">
+                                <li><a href="index.html">Terms of Service</a></li>
+                                <li><a href="index.html">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- main-footer end -->
+    
+    
+    
+            <!--Scroll to top-->
+            <div class="scroll-to-top">
+                <div>
+                    <div class="scroll-top-inner">
+                        <div class="scroll-bar">
+                            <div class="bar-inner"></div>
+                        </div>
+                        <div class="scroll-bar-text">Go To Top</div>
+                    </div>
                 </div>
             </div>
-
-            <!-- Links Section 1 -->
-            <div class="col-md-3 col-12 mt-5 mt-md-0">
-                <ul class="list-unstyled text-white fw-bold d-flex flex-column gap-3">
-                    <li>Media Resources</li>
-                    <li>Careers</li>
-                    <li>Accessibility Tools</li>
-                </ul>
-            </div>
-
-            <!-- Language Links Section -->
-            <div class="col-md-5 col-12 mt-5 mt-md-0">
-                <ul class="list-unstyled text-white d-flex flex-column gap-3">
-                    <li>Spanish / Español</li>
-                    <li>Vietnamese / Tiếng Việt</li>
-                    <li>Korean / 한국어</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="row mt-5 align-items-center">
-            <!-- Copyright and Terms -->
-            <div class="col-md-8 col-12">
-                <p class="text-white mb-0" style="font-size: 13px;">
-                    © 2024 Southern Company. All rights reserved. Reuse of text or graphics is prohibited without written permission.
-                </p>
-                <div class="text-white d-flex gap-2">
-                    <a href="#" class="text-white">Terms and Conditions</a> |
-                    <a href="#" class="text-white">Privacy Statement</a>
-                </div>
-            </div>
-
-            <!-- Logo Section -->
-            <div class="col-md-4 col-10 mt-5 mt-md-0 text-md-end text-start">
-                <img src="assets/images/providersimg/GA_power_h_rgb_rev.png" alt="GA Power Logo" class="img-fluid" style="max-width: 70%;" />
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Footer Section End -->
+            <!-- Scroll to top end -->
 
     <!-- footer end  -->
 
+  <!-- jequery plugins -->
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/plugins.js"></script>
+  <script src="assets/js/owl.js"></script>
+  <script src="assets/js/wow.js"></script>
+  <script src="assets/js/validation.js"></script>
+  <script src="assets/js/jquery.fancybox.js"></script>
+  <script src="assets/js/appear.js"></script>
+  <script src="assets/js/scrollbar.js"></script>
+  <script src="assets/js/isotope.js"></script>
+  <script src="assets/js/jquery.nice-select.min.js"></script>
+  <script src="assets/js/jquery-ui.js"></script>
+  <script src="assets/js/parallax-scroll.js"></script>
 
-    <script src="assets/js/script.js"></script>
+  <!-- main-js -->
+  <script src="assets/js/script.js"></script>
     
 </body>
 </html>
