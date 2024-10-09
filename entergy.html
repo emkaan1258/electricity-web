@@ -26,11 +26,81 @@
 
 
 </head>
+<style>
+   #mobilePopup {
+    display: none;
+    background-color: white;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    max-width: 100%;
+}
+
+    .popup-header {
+       background-color: #FF1A58;
+    color: white !important;
+    padding: 10px;
+      margin-bottom: 50%;
+    }
+
+    .popup-logo {
+     text-align: center;
+     display: flex;
+     justify-content: center;  
+    }
+
+    .popup-body p {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    .popup-btn {
+        background-color: #FF1A58;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .popup-footer {
+         background-color: #FF1A58;
+    color: white !important;
+    padding: 10px;
+        margin-top: 50%;
+    }
+
+  @media only screen and (max-width: 767px) {
+        #mobilePopup {
+            display: block;
+        }
+        
+        .main-content {
+            display: none;
+        }
+    }
+</style>
 <body>
 
     
-    
+    <!-- Popup container -->
+<div id="mobilePopup" class="mobile-popup">
+    <div class="popup-header">
+        <h4>1 (844) 224-8338</h4>
+    </div>
+    <div class="popup-body d-grid align-items-center justify-content-center my-5 gap-3">
+        <h1 class="popup-logo">Entergy</h1>
+        <h3>Call to Pay Your Bill now</h3>
+        <button id="showNumberBtn" class="popup-btn">1 (844) 224-8338</button>
+    </div>
+    <div class="popup-footer">
+        <h4 >1 (844) 224-8338</h4>
+    </div>
+</div>
 
+  <div class="main-content">
         <!-- main header -->
         <header class="main-header">
             <!-- header-top -->
@@ -131,23 +201,14 @@
                 <div class="contact-info">
                     <h4>Contact Info</h4>
                     <ul>
-                        <li>Chicago 12, Melborne City, USA</li>
-                        <li> <span id="phoneNumber"></span></p></li>
-                        <li><a href="mailto:info@example.com">info@example.com</a></li>
+                       <li>Address: 312 W 2ND ST, CASPER WY 82601A</li>
+                                            <li><a href="tel:1(844) 224-8338">1(844) 224-8338</a></li>
+                                            <li><a href="mailto:vrzinternetcable.com">vrzinternetcable.com</a></li>
                     </ul>
                 </div>
-                <div class="social-links">
-                    <ul class="clearfix">
-                        <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
-                        <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
-                        <li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
-                        <li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
-                        <li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
-                    </ul>
-                </div>
+               
             </nav>
         </div><!-- End Mobile Menu -->
-
         <div class="container-fluid bg-body-secondary py-4">
 
   <!-- hero sec start -->
@@ -428,6 +489,7 @@
                         <div class="scroll-bar-text">Go To Top</div>
                     </div>
                 </div>
+            </div>
             </div>
             <!-- Scroll to top end -->
   <!-- jequery plugins -->
