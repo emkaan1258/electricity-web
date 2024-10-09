@@ -1454,7 +1454,11 @@ max-width: 100%;
 div#mCSB_1_container{
   top: 0px !important;
 }
-
+.disclaimer-text {
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  line-height: 35px;
+}
 .mobile-menu .contact-info {
   position: relative;
   padding: 120px 30px 20px 30px;
