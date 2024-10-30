@@ -1,20 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-
-<title>payenergybill.us </title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payenergybill.us </title>
 <!-- Fav Icon -->
 <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 
 <!-- Google Fonts -->
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <!-- Stylesheets -->
 <link href="assets/css/font-awesome-all.css" rel="stylesheet">
 <link href="assets/css/flaticon.css" rel="stylesheet">
@@ -27,6 +23,7 @@
 <link href="assets/css/jquery-ui.css" rel="stylesheet">
 <link href="assets/css/style.css" rel="stylesheet">
 <link href="assets/css/responsive.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/duke.css">
 
 
 </head>
@@ -80,19 +77,31 @@
         #mobilePopup {
             display: block;
         }
+        
         .main-content {
             display: none;
         }
     }
+    .bg-img-duke {
+    background-image: url("https://www.duke-energy.com/-/media/images/hero2/2022-home-redesign-jss/hero-solar-panels-field-desktop.jfif?as=1&bc=ffffff&iar=0&rev=3fd4cbe6b8174be58fecfce420ba566c&w=2048") !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+
+}
 </style>
 <body>
-      <!-- Popup container -->
+
+    
+    <!-- Popup container -->
 <div id="mobilePopup" class="mobile-popup">
     <div class="popup-header">
         <h4>1 (844) 224-8338</h4>
     </div>
     <div class="popup-body d-grid align-items-center justify-content-center my-5 gap-3">
-        <h1 class="popup-logo">Georgia Energy</h1>
+        <h1 class="popup-logo">Duke</h1>
         <h3>Call to Pay Your Bill now</h3>
         <button id="showNumberBtn" class="popup-btn">1 (844) 224-8338</button>
     </div>
@@ -100,6 +109,7 @@
         <h4 >1 (844) 224-8338</h4>
     </div>
 </div>
+
   <div class="main-content">
        <!-- main header -->
         <header class="main-header">
@@ -210,176 +220,108 @@
                
             </nav>
         </div><!-- End Mobile Menu -->
-
-<!-- cards start -->
-<div class="container d-flex mt-4 align-items-center justify-content-center">
-    <div class="row justify-content-center">
-
-        <div class="col-lg-2 col-md-3 col-sm-4 col-6 text-center d-flex flex-column">
-            <img src="/assets/images/providersimg/account-icon.png" alt="" class="w-25 mx-auto">
-            <span>Manage My Account</span>
-        </div>
-        <div class="col-lg-2 col-md-3 col-sm-4 col-6 text-center d-flex flex-column">
-            <img src="/assets/images/providersimg/pay-icon.png" alt="" class="w-25 mx-auto">
-            <span>Pay My Bill</span>
-        </div>
-        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-sm-0 mt-4 text-center d-flex flex-column">
-            <img src="/assets/images/providersimg/hands-icon.png" alt="" class="w-25 mx-auto">
-            <span>Find Payment Assistance</span>
-        </div>
-
-        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-md-0 mt-4 text-center d-flex flex-column">
-            <img src="/assets/images/providersimg/balance-icon.png" alt="" class="w-25 mx-auto">
-            <span>Check Account Balance</span>
-        </div>
-        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-lg-0 mt-4 text-center d-flex flex-column">
-            <img src="/assets/images/providersimg/outeage-icon.png" alt="" class="w-25 mx-auto">
-            <span>Report an Outage</span>
-        </div>
-        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-lg-0 mt-4 text-center d-flex flex-column">
-            <img src="/assets/images/providersimg/service-icon.png" alt="" class="w-25 mx-auto">
-            <span>Start or Stop Service</span>
-        </div>
-    </div>
-</div>
-<!-- cards end -->
-
-<!-- hero section start -->
-<div class="container mt-5 pt-5">
-    <h1 class="text-center">Georgia Energy: Hurricane Helene's Impact</h1>
-    <h5 class="text-center">Hurricane Helene has caused significant disruptions in energy services, leaving thousands of customers across Georgia without power.</h5>
-    <div class="row py-4 align-items-center" style="border-bottom: 1px solid rgb(218, 208, 208); border-top: 1px solid rgb(218, 208, 208);">
-        <div class="col-md-7 col-12">
-            <h5 class="fw-bold">Restoring Georgia Energy Services</h5>
-            <p>Our dedicated teams are working tirelessly to restore power to affected regions. We have mobilized more than 20,000 personnel to ensure Georgia energy services are restored as swiftly as possible.</p>
-            
-            <h5 class="fw-bold pt-3">Current Outages in Georgia</h5>
-            <p>Approximately 200,000 customers still remain without power. Our crews are prioritizing the restoration of Georgia energy services to critical areas and heavily impacted zones.</p>
-            
-            <h5 class="fw-bold pt-3">Progress and Timeline</h5>
-            <p>We have successfully restored power to over 1.14 million customers, covering about 85% of those affected. Our goal is to fully restore Georgia energy to all customers in the shortest possible time.</p>
-        </div>
-        <div class="col-md-5 col-12">
-            <img src="assets/images/providersimg/original.jpeg" alt="Restoration efforts" style="height: 400px; width: 100%; object-fit: cover;">
-        </div>
-    </div>
-    <p class="text-black text-center mt-4">Stay clear of downed power lines and flooded areas, as they may pose serious risks.</p>
-    <div class="buttons d-flex justify-content-center gap-3 pb-5">
-        <button class="w-25 py-2">Latest Updates</button>
-        <button class="w-25 py-2">Restoration Process</button>
-        <button class="w-25 py-2">Understanding Outages</button>
-    </div>
-</div>
-<!-- hero section end -->
-
-<!-- Faqs start -->
-<div class="container mt-5">
-    <div class="row gap-4">
-
-        <!-- Areas Still Without Power Section -->
-        <div class="col-12 faq pt-3 pb-2" style="border:1px solid rgb(207, 197, 197);">
-            <h3 class="text-center">Current Power Outage Areas</h3>
-            <div class="text-center text-primary" id="toggleIcon" onclick="toggleRow()">
-                <i class="fa-solid fa-plus"></i>
+    <div class="bg-img-duke">
+    <div class="container d-flex my-4 align-items-center justify-content-center">
+        <div class="row justify-content-center gap-4">
+            <div class="heading d-flex justify-content-center mt-4">
+                <h3 class="text-white">How Can We Assist You?</h3>
             </div>
-            <div class="row justify-content-center px-2 gap-2 mt-4" id="toggleRow" style="display: none;">
-                <div class="col-12">
-                    <h6 class="fw-bold">We appreciate your patience during this time of energy restoration.</h6>
-                    <p class="pt-3">Check the Outage Map for the most up-to-date restoration schedules across Georgia.</p>
-                    <p class="pt-5">Our priority is restoring power to critical areas first, including emergency facilities and densely populated regions.</p>
-                    <p class="pt-3">We are addressing major challenges, such as debris-blocked roads and damaged infrastructure in Augusta, Savannah, and Macon.</p>
-                </div>
-                <div class="col-md-8 col-11">
-                    <img src="assets/images/providersimg/helene-outage-map-10-3.jpeg" alt="Outage map" style="width: 100%; object-fit: cover;">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-md-0 mt-4 text-center d-flex flex-column bg-black text-white p-3 mb-5">
+                <img src="/assets/images/providersimg/balance-icon.png" alt="Balance Icon" class="w-25 mx-auto">
+                <span>Pay My Bill</span>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-lg-0 mt-4 text-center d-flex flex-column bg-black text-white p-3 mb-5">
+                <img src="/assets/images/providersimg/service-icon.png" alt="Service Icon" class="w-25 mx-auto">
+                <span>Start/Stop Service</span>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-sm-0 mt-4 text-center d-flex flex-column bg-black text-white p-3 mb-5">
+                <img src="/assets/images/providersimg/hands-icon.png" alt="Outages Icon" class="w-25 mx-auto">
+                <span>Outages</span>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 text-center d-flex flex-column bg-black text-white p-3 mb-5">
+                <img src="/assets/images/providersimg/pay-icon.png" alt="Financial Help Icon" class="w-25 mx-auto">
+                <span>Financial Help</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid bg-body-secondary py-4">
+    <!-- Featured Section Start -->
+    <div class="container-fluid my-4">
+        <div class="row">
+            <div class="col-lg-6 col-12">
+                <img src="https://www.duke-energy.com/-/media/images/cards/card-ol-featured-res.jpg?as=1&bc=ffffff&iar=0&rev=9e2418ca0e0744a2a3560cefddf3a461&w=1200" alt="Outdoor Lighting" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-12 bg-body py-5 px-5">
+                <h5 class="fw-bold mt-5">Featured</h5>
+                <h3 class="fw-bold">Outdoor Lighting</h3>
+                <p class="w-75 my-4">Our comprehensive solutions make outdoor lighting straightforward, efficient, and budget-friendly.</p>
+                <button class="text-white fw-bold px-4 py-2 rounded-5" style="background-color: #FF1A58;">1 (844) 224-8338</button>
+            </div>
+        </div>
+    </div>
+    <!-- Featured Section End -->
+
+    <!-- Company Highlights Start -->
+    <div class="container-fluid mt-5 pt-5">
+        <div class="d-grid justify-content-center gap-2">
+            <h3 class="text-center">Our Company</h3>
+            <p class="text-center">We empower communities and energize daily life.Discover our journey towards a cleaner, <br>smarter, and more reliable energy future.</p>
+        </div>
+        <div class="row mt-4">
+            <div class="col-lg-3 col-sm-6 col-12">
+                <div class="bg-body text-center pb-4">
+                    <div class="text-center">
+                        <img src="https://www.duke-energy.com/-/media/images/rectangular-pod/rectangular-pod-smarter-energy-future.jpg?as=1&bc=ffffff&iar=0&rev=d9c4330a23b0409aaa710cbde540706f&w=560" alt="Duke Energy Foundation">
+                    </div>
+                    <div class="text-start py-4 px-4">
+                        <h4 class="fw-bold m-0">Duke Energy Foundation</h4>
+                        <p class="py-2">Our foundation contributes over $30 million annually to support communities.</p>
+                        <a href="" class="fw-bold text-decoration-none rounded-5 px-4 py-2" style="color: white; background-color: #FF1A58;">1 (844) 224-8338</a>
+                    </div>
                 </div>
             </div>
-        </div>
-
-      <!-- Energy-Efficient Appliance Rebates Section -->
-<div class="col-12 faq pt-3 pb-2" style="border:1px solid rgb(207, 197, 197);">
-    <h3 class="text-center">Energy-Efficient Appliance Rebates</h3>
-    <div class="text-center text-primary" id="toggleIcon2" onclick="toggleRow2()">
-        <i class="fa-solid fa-plus"></i>
-    </div>
-    <div class="row justify-content-center px-2 gap-2 mt-4" id="toggleRow2" style="display: none;">
-        <div class="col-12">
-            <h6 class="fw-bold">How can I qualify for appliance rebates?</h6>
-            <p class="pt-3">To qualify for rebates, upgrade to energy-efficient appliances. Submit your rebate form online after installation for review and approval.</p>
-            <p class="pt-3">Check our Rebate Program Page for eligible appliance models and detailed instructions.</p>
-        </div>
-    </div>
-</div>
-
-
-
-    </div>
-</div>
-<!-- Faqs end -->
-
-<!-- Featured Resources Section -->
-<div class="container mt-5 pt-4" style="border-top:1px solid rgb(199, 192, 192);">
-    <div class="row">
-        <div class="col-lg-6 col-12">
-            <h3>Featured Resources</h3>
-            <h6 class="fw-bold pt-5">Billing and Payment Options</h6>
-            <ul class="list-group gap-2 mt-2">
-                <li>Discover various payment packages that offer flexibility, including discounted prize options and installment plans for managing your Georgia energy bills.</li>
-                <li>Get a clear understanding of your billing details, along with tips to reduce your energy costs.</li>
-                <li>Find nearby authorized payment centers for convenient in-person bill payments.</li>
-                <li>Explore energy payment assistance programs to help manage your electricity expenses.</li>
-                <li>Create an online account to simplify billing management and access energy-saving tools.</li>
-            </ul>
-
-            <h6 class="fw-bold pt-5">Energy Usage Insights</h6>
-            <ul class="list-group gap-2 mt-2">
-                <li>Track your Georgia energy usage in real-time and gain insights into peak consumption periods.</li>
-                <li>Understand why your energy usage might increase and explore methods to reduce it effectively.</li>
-                <li>Implement energy-saving tips to lower your monthly energy bill.</li>
-            </ul>
-
-            <h6 class="fw-bold pt-5">Power Outages and Restoration</h6>
-            <ul class="list-group gap-2 mt-2">
-                <li>Report a power outage and monitor the restoration status through our online tools.</li>
-                <li>Find out how to report an issue with outdoor lighting in your neighborhood.</li>
-                <li>Learn about our structured power restoration process and how Georgia energy works to restore services quickly and efficiently.</li>
-                <li>Prepare for potential outages and learn about common causes and preventative measures.</li>
-            </ul>
-        </div>
-
-        <div class="col-lg-2 col-sm-5 col-12 d-flex flex-column gap-5 mt-lg-0 mt-5">
-            <div>
-                <img src="assets/images/providersimg/original-1.jpeg" alt="" class="w-full" style="height: 230px; object-fit: cover;">
+            <div class="col-lg-3 col-sm-6 col-12 mt-sm-0 mt-4">
+                <div class="bg-body text-center pb-4">
+                    <div class="text-center">
+                        <img src="https://www.duke-energy.com/-/media/images/rectangular-pod/rectangular-pod-fraud-alert.jpg?as=1&bc=ffffff&iar=0&rev=6a92a3aadbf9467eb8416588321e5d82&w=560" alt="Smarter Energy Future">
+                    </div>
+                    <div class="text-start py-4 px-4">
+                        <h4 class="fw-bold m-0">Building a Smarter Energy Future</h4>
+                        <p class="py-2">Investing in reliability, clean energy, and resilience to power tomorrow.</p>
+                        <a href="" class="fw-bold text-decoration-none rounded-5 px-4 py-2" style="color: white; background-color: #FF1A58;">1 (844) 224-8338</a>
+                    </div>
+                </div>
             </div>
-            <div>
-                <img src="assets/images/providersimg/original-2.jpeg" alt="" class="w-full" style="height: 230px; object-fit: cover;">
+            <div class="col-lg-3 col-sm-6 col-12 mt-lg-0 mt-4">
+                <div class="bg-body text-center pb-4">
+                    <div class="text-center">
+                        <img src="https://www.duke-energy.com/-/media/images/rectangular-pod/rectangular-pod-illumination.jpg?as=1&bc=ffffff&iar=0&rev=7218ddba3ea442ec9121a5fe700c94ae&w=560" alt="Illumination Stories">
+                    </div>
+                    <div class="text-start py-4 px-4">
+                        <h4 class="fw-bold m-0">Stories from Illumination</h4>
+                        <p class="py-2">Discover inspiring stories behind our journey to a brighter, cleaner future.</p>
+                        <a href="" class="fw-bold text-decoration-none rounded-5 px-4 py-2" style="color: white; background-color: #FF1A58;">1 (844) 224-8338</a>
+                    </div>
+                </div>
             </div>
-            <div>
-                <img src="assets/images/providersimg/original-3.jpeg" alt="" class="w-full" style="height: 230px; object-fit: cover;">
+            <div class="col-lg-3 col-sm-6 col-12 mt-lg-0 mt-4">
+                <div class="bg-body text-center pb-4">
+                    <div class="text-center">
+                        <img src="assets/images/provider2img/2023-performance-report-banner.jpg" alt="Fraud Prevention">
+                    </div>
+                    <div class="text-start py-4 px-4">
+                        <h4 class="fw-bold m-0">Scams and Fraud</h4>
+                        <p class="py-2">Stay vigilant. Scam tactics evolve to access your account – be prepared.</p>
+                        <a href="" class="fw-bold text-decoration-none rounded-5 px-4 py-2" style="color: white; background-color: #FF1A58;">1 (844) 224-8338</a>
+                    </div>
+                </div>
             </div>
-        </div>
-
-        <div class="col-lg-4 col-sm-7 col-12 d-flex flex-column gap-5 mt-lg-0 mt-5">
-            <div>
-                <h3>The Future of Georgia Energy</h3>
-                <p>We are committed to ensuring reliable and affordable energy for all Georgians, now and in the future. Stay informed about upcoming energy projects and innovations in the state.</p>
-            </div>
-            <div>
-                <h3>Explore Flexible Billing Options</h3>
-                <p>From budget-friendly installment plans to energy-saving payment packages, we provide a variety of options to suit your needs.</p>
-            </div>
-            <div>
-                <h3>Energy Savings and Rebates</h3>
-                <p>Take advantage of our exclusive Georgia energy-saving programs. Get discounted prizes for upgrading to energy-efficient appliances and equipment.</p>
-            </div>
-             <div>
-    <h3>Flexible Payment and Billing Options</h3>
-    <p>Manage your Georgia energy expenses with ease by exploring our flexible billing solutions. Choose from convenient payment plans, including installments and packages that fit your budget.</p>
-</div>
-
         </div>
     </div>
+    <!-- Company Highlights End -->
 </div>
-<!-- Featured Resources end -->
 
 
     <!-- pricing-section -->
@@ -391,7 +333,7 @@
     <div class="auto-container">
         <div class="sec-title p_relative mb_100">
             <h5 class="d_block fs_17 lh_25 fw_medium mb_9">Pricing Plans</h5>
-            <h2 class="d_block fs_40 lh_50 fw_bold">Transparent Pricing, Flexible Options</h2>
+            <h2 class="d_block fs_40 lh_50 fw_bold">Affordable Plans for Every Household</h2>
         </div>
         <div class="row clearfix">
             <!-- Basic Plan -->
@@ -402,17 +344,17 @@
                             <div class="light-icon"><img src="assets/images/icons/icon-4.png" alt=""></div>
                             <div class="table-header">
                                 <div class="icon-box"><i class="icon-34"></i></div>
-                                <h2>$19.00</h2>
-                                <p>Basic electricity plan, perfect for small homes and minimal energy consumption.</p>
+                                <h2>$21.00</h2>
+                                <p>Essential electricity plan for small households with moderate energy needs.</p>
                             </div>
                             <div class="table-content">
                                 <ul class="feature-list clearfix">
-                                    <li><span>Up to 500 kWh Usage</span></li>
+                                    <li><span>Up to 600 kWh Usage</span></li>
                                     <li><span>24/7 Customer Support</span></li>
-                                    <li><span>Energy Usage Monitoring</span></li>
-                                    <li><span>Basic Installation Assistance</span></li>
-                                    <li><span>Standard Service Activation</span></li>
-                                    <li><span>No Hidden Fees</span></li>
+                                    <li><span>Energy Savings Tips</span></li>
+                                    <li><span>Free Standard Installation</span></li>
+                                    <li><span>Billing Flexibility</span></li>
+                                    <li><span>Emergency Response</span></li>
                                 </ul>
                             </div>
                             <div class="table-footer">
@@ -430,17 +372,17 @@
                             <div class="light-icon"><img src="assets/images/icons/icon-4.png" alt=""></div>
                             <div class="table-header">
                                 <div class="icon-box"><i class="icon-35"></i></div>
-                                <h2>$23.00</h2>
-                                <p>Standard plan for medium-sized homes, offering a balanced mix of savings and service.</p>
+                                <h2>$27.00</h2>
+                                <p>Comprehensive plan for families needing more energy and advanced support.</p>
                             </div>
                             <div class="table-content">
                                 <ul class="feature-list clearfix">
-                                    <li><span>Up to 1000 kWh Usage</span></li>
+                                    <li><span>Up to 1200 kWh Usage</span></li>
                                     <li><span>Priority Customer Support</span></li>
-                                    <li><span>Energy Efficiency Tips</span></li>
-                                    <li><span>Flexible Billing Options</span></li>
-                                    <li><span>Service Activation within 24 Hours</span></li>
-                                    <li><span>Free Smart Meter Installation</span></li>
+                                    <li><span>Free Energy Consultation</span></li>
+                                    <li><span>Fast Service Activation</span></li>
+                                    <li><span>Flexible Payment Plans</span></li>
+                                    <li><span>Advanced Metering Options</span></li>
                                 </ul>
                             </div>
                             <div class="table-footer">
@@ -458,17 +400,17 @@
                             <div class="light-icon"><img src="assets/images/icons/icon-4.png" alt=""></div>
                             <div class="table-header">
                                 <div class="icon-box"><i class="icon-36"></i></div>
-                                <h2>$39.00</h2>
-                                <p>Premium plan for large households or businesses requiring extensive energy usage.</p>
+                                <h2>$45.00</h2>
+                                <p>Premium plan designed for large homes or businesses with high energy demands.</p>
                             </div>
                             <div class="table-content">
                                 <ul class="feature-list clearfix">
                                     <li><span>Unlimited kWh Usage</span></li>
-                                    <li><span>Priority Installation and Service</span></li>
-                                    <li><span>Advanced Energy Monitoring</span></li>
-                                    <li><span>Free Annual Energy Audit</span></li>
-                                    <li><span>Dedicated Account Manager</span></li>
-                                    <li><span>24/7 Emergency Support</span></li>
+                                    <li><span>Dedicated Energy Consultant</span></li>
+                                    <li><span>24/7 Priority Support</span></li>
+                                    <li><span>Customized Energy Plans</span></li>
+                                    <li><span>Smart Home Integration</span></li>
+                                    <li><span>Comprehensive Energy Audits</span></li>
                                 </ul>
                             </div>
                             <div class="table-footer">
@@ -482,7 +424,7 @@
     </div>
 </section>
 <!-- pricing-section end -->
-      <section class="pricing-section p_relative sec-pad centred">
+  <section class="pricing-section p_relative sec-pad centred">
         <div class="pattern-layer">
             <div class="pattern-1 float-bob-y" style="background-image: url(assets/images/shape/shape-10.png);"></div>
             <div class="pattern-2" style="background-image: url(assets/images/shape/shape-11.png);"></div>
@@ -496,7 +438,7 @@
                         <div class="content-box">
                             <div class="sec-title p_relative mb_30">
                                 
-                                <p>This website is not an official site of Georgia Power or any Energy Provider, but it is the Official site of payenergybill.us (Marketing Partner). We may send updates to the mobile number/email ID registered with us. The content is for informational purposes only and does not constitute an offer to avail of any service. Prices mentioned are subject to change without notice and properties mentioned are subject to availability. Images are for representation purposes only. The logos and images used on this website are the exclusive property of their respective owners and are protected under applicable copyright laws. payenergybill.us does not claim any ownership or rights to these materials and they are used on this website solely for informational purposes.</p>
+                                 <p>This website is not an official site of Entergy or any Energy Provider, but it is the Official site of payenergybill.us (Marketing Partner). We may send updates to the mobile number/email ID registered with us. The content is for informational purposes only and does not constitute an offer to avail of any service. Prices mentioned are subject to change without notice and properties mentioned are subject to availability. Images are for representation purposes only. The logos and images used on this website are the exclusive property of their respective owners and are protected under applicable copyright laws. payenergybill.us does not claim any ownership or rights to these materials and they are used on this website solely for informational purposes.</p>
                             </div>
                             
                         </div>
@@ -604,9 +546,6 @@
             </div>
             </div>
             <!-- Scroll to top end -->
-
-    <!-- footer end  -->
-
   <!-- jequery plugins -->
   <script src="assets/js/jquery.js"></script>
   <script src="assets/js/popper.min.js"></script>
